@@ -17,7 +17,7 @@ Contains an sql migration script for creating and populating a MySQL database fo
 
   
 ## Running the project  
-The project requires [Node](https://nodejs.org/en/download), [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable), and [MySQL](https://dev.mysql.com/downloads/installer/). 
+The project requires [Node](https://nodejs.org/en/download), [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable), and [MySQL](https://dev.mysql.com/downloads/mysql/). 
 To run the migration script, you may need to also download [MySQL Workbench](https://www.mysql.com/products/workbench/) or use the MySQL command line client.  
   
 To start the project, first make sure that your MySQL server is running on port 3306 and the poll database has been created and populated.  
