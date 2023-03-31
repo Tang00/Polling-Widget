@@ -1,0 +1,16 @@
+{
+  "name": "polling-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "graphql": "^16.6.0",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.30.0"
+  }
+}

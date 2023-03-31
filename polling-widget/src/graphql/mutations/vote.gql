@@ -1,0 +1,5 @@
+mutation Vote($id: Int!) {
+    vote(id: $id) {
+        success
+    }
+}

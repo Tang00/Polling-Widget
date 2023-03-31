@@ -1,0 +1,11 @@
+query Poll($pollId: Int!) {
+    poll(id: $pollId) {
+        prompt
+        responses {
+        id
+        response
+        votes
+        }
+        totalVotes
+    }
+}
