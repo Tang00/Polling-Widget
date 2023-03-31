@@ -23,11 +23,9 @@ Some research into the viability of Voltorb as a power source.
 The project requires [Node](https://nodejs.org/en/download), [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable), and [MySQL](https://dev.mysql.com/downloads/mysql/). 
 To run the migration script, you may need to also download [MySQL Workbench](https://www.mysql.com/products/workbench/) or use the MySQL command line client.  
   
-To start the project, first make sure that your MySQL server is running on port 3306 and the poll database has been created and populated.  
+To start the project, first make sure that your MySQL server is running on port 3306. The backend assumes that the username for the database is `root` and the password is `password`.  
   
-The backend assumes that the username for the database is `root` and the password is `password`.  
-  
-You can populate the database by opening MySQL Workbench selecting your database and on the nav bar, select `File` -> `Open SQL Script` and selecting `mysql/database.sql`. Then click on the lightning bolt button to run the script.  
+You can create and populate the database by opening MySQL Workbench selecting your database and on the nav bar, select `File` -> `Open SQL Script` and selecting `mysql/database.sql`. Then click on the lightning bolt button to run the script.  
   
 Next open 2 terminal windows and navigate one to the polling-widget directory and the other to the polling-backend directory.  
 In both terminals, run the `yarn install` and `yarn start` commands to download all dependencies and start the applications.  
